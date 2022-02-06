@@ -1,4 +1,4 @@
-# WikiTranslate
+# WikiExtractor
 
 <img src="https://img.shields.io/github/license/MistaAsh/WikiExtractor">
 <img src="https://img.shields.io/github/languages/top/MistaAsh/WikiExtractor">
