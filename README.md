@@ -1,10 +1,6 @@
-# WikiTranslate
+# WikiExtractor
 
-<img src="https://img.shields.io/github/license/MistaAsh/WikiExtractor">
-<img src="https://img.shields.io/github/languages/top/MistaAsh/WikiExtractor">
-<img src="https://img.shields.io/github/issues/MistaAsh/WikiExtractor">
-<img src="https://img.shields.io/github/issues-pr/MistaAsh/WikiExtractor">
-<img src="https://img.shields.io/github/last-commit/MistaAsh/WikiExtractor">
+<img src="https://img.shields.io/github/license/MistaAsh/WikiExtractor"><img src="https://img.shields.io/github/languages/top/MistaAsh/WikiExtractor"><img src="https://img.shields.io/github/issues/MistaAsh/WikiExtractor"><img src="https://img.shields.io/github/issues-pr/MistaAsh/WikiExtractor"><img src="https://img.shields.io/github/last-commit/MistaAsh/WikiExtractor">
 
 
 This is WikiExtractor! A simple and easy to use Python-based Web Scraping tool that can be used to extract information from Wikipedia pages.
