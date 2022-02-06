@@ -1,6 +1,6 @@
 # WikiExtractor
 
-<img src="https://img.shields.io/github/license/MistaAsh/WikiExtractor"><img src="https://img.shields.io/github/languages/top/MistaAsh/WikiExtractor"><img src="https://img.shields.io/github/issues/MistaAsh/WikiExtractor"><img src="https://img.shields.io/github/issues-pr/MistaAsh/WikiExtractor"><img src="https://img.shields.io/github/last-commit/MistaAsh/WikiExtractor">
+<img src="https://img.shields.io/github/license/MistaAsh/WikiExtractor"> <img src="https://img.shields.io/github/languages/top/MistaAsh/WikiExtractor"> <img src="https://img.shields.io/github/issues/MistaAsh/WikiExtractor"> <img src="https://img.shields.io/github/issues-pr/MistaAsh/WikiExtractor"> <img src="https://img.shields.io/github/last-commit/MistaAsh/WikiExtractor">
 
 
 This is WikiExtractor! A simple and easy to use Python-based Web Scraping tool that can be used to extract information from Wikipedia pages.
@@ -18,7 +18,17 @@ Traverse to the directory where the repository is cloned.
 cd WikiExtractor
 ```
 
+To execute the script, you will need to install the dependencies. It is recommended to create a virtual environment to do the same
+```bash
+virtualenv venv
+pip install -r requirements.txt
+```
 
+Use the following command to run the script.
+```bash
+python WikiExtractor.py --keyword=<your_keyword> --num_urls=<your_num_urls> --output=<your_output_JSON_file>
+```
+Replace each `<>`with the appropriate values. Make sure to append `.json` to the end of the output file name to prevent any errors.
 
 ## Implementation
 
