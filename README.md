@@ -41,9 +41,7 @@ Replace each `<>`with the appropriate values. Make sure to append `.json` to the
 <br>
 
 ### PDF Extractor
-To use the PDF Extractor, you will additionally have to install the Tesseract OCR Engine from [here](https://tesseract-ocr.github.io/tessdoc/Home.html#5xx).
-
-You will also have to install Poppler from [here](https://poppler.freedesktop.org/) and add the `bin` folder to the system PATH.
+To use the PDF Extractor, you will additionally have to install the Tesseract OCR Engine from [here](https://tesseract-ocr.github.io/tessdoc/Home.html#5xx). You will also have to install Poppler from [here](https://poppler.freedesktop.org/) and add the `bin` folder to the system PATH.
 
 To run the script, use this command in the terminal
 ```bash
