@@ -22,7 +22,11 @@ cd WikiExtractor
 
 To execute the script, you will need to install the dependencies. It is recommended to create a virtual environment to do the same
 ```bash
-virtualenv venv
+# Create a virtual environment (not necessary but recommended)
+python3 -m venv <name-of-virtual-environment>
+source <name-of-virtual-environment>/bin/activate
+
+# Install the dependencies
 pip install -r requirements.txt
 ```
 <br>

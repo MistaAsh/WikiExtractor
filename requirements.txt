@@ -1,0 +1,9 @@
+attr==0.3.1
+attrs==21.4.0
+beautifulsoup4==4.10.0
+pandas==1.4.0
+pdf2image==1.16.0
+pytesseract==0.3.8
+requests==2.27.1
+selenium==4.1.0
+webdriver_manager==3.5.2
