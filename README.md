@@ -51,7 +51,9 @@ python pdf_extractor.py
 
 The implementation of WikiExtractor is done in Python. The code is written in a modular way so that it can be easily integrated into other projects.
 
-The extractor tool leverages the Search Optimization of the Google search engine to give the user the best possible results. It initially sends a `GET` request to the Google search engine with the query as the search term. The search engine returns a list of Wikipedia URLs that are relevant to the search term. The extractor then sends a `GET` request to each of the URLs and extracts the relevant information from the HTML page.
+The wikipedia extractor tool leverages the Search Optimization of the Google search engine to give the user the best possible results. It initially sends a `GET` request to the Google search engine with the query as the search term. The search engine returns a list of Wikipedia URLs that are relevant to the search term. The extractor then sends a `GET` request to each of the URLs and extracts the relevant information from the HTML page.
+
+The pdf extractor tool uses the `Tesseract OCR` engine to extract text from pdf files. The extractor first downloads the pdf file and then uses the Tesseract OCR engine to extract the text from the pdf file. The extractor then writes the extracted text to a JSON file. 
 
 <br>
 
