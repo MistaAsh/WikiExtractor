@@ -5,6 +5,8 @@
 
 This is WikiExtractor! A simple and easy to use Python-based Web Scraping tool that can be used to extract information from Wikipedia pages.
 
+As an added feature we have also included a simple pdf extractor that uses the Tesseract OCR engine to extract text from pdf files.
+
 ## Installation
 To contribute and work on the repository, you need Python installed on your system. If you do not have Python installed, you can install it from [here](https://www.python.org/downloads/).
 
@@ -23,12 +25,27 @@ To execute the script, you will need to install the dependencies. It is recommen
 virtualenv venv
 pip install -r requirements.txt
 ```
+<br>
 
-Use the following command to run the script.
+### Wikipedia Extractor
+Use the following commands to run the script.
 ```bash
-python WikiExtractor.py --keyword=<your_keyword> --num_urls=<your_num_urls> --output=<your_output_JSON_file>
+python wiki_extractor.py --keyword=<your_keyword> --num_urls=<your_num_urls> --output=<your_output_JSON_file>
 ```
 Replace each `<>`with the appropriate values. Make sure to append `.json` to the end of the output file name to prevent any errors.
+
+<br>
+
+### PDF Extractor
+To use the PDF Extractor, you will additionally have to install the Tesseract OCR Engine from [here](https://tesseract-ocr.github.io/tessdoc/Home.html#5xx).
+
+You will also have to install Poppler from [here](https://poppler.freedesktop.org/) and add the `bin` folder to the system PATH.
+
+To run the script, use this command in the terminal
+```bash
+python pdf_extractor.py
+```
+<br>
 
 ## Implementation
 
